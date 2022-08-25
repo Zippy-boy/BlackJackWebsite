@@ -1,0 +1,79 @@
+body {
+    background-color: black;
+}
+
+#title {
+    color: white;
+    font-size: 70px;
+    font-family: "Times New Roman";
+    text-align: center;
+    margin-top: 20px;
+}
+
+h3 {
+    color: white;
+    font-size: 40px;
+    font-family: "Times New Roman";
+    text-align: center;
+    margin-top: 20px;
+}
+
+.BlackJack {
+    background-color: #000;
+    color: #fff;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.flex-blackjack-row-1,
+.flex-blackjack-row-2,
+.flex-blackjack-row-3{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-blackjack-row-1 {
+    background-color: rgb(34, 34, 34);
+    height:min-content;
+    height: 55vh; 
+}
+
+.flex-blackjack-row-1 div {
+    border: 1px solid #fff;
+    flex: 1;
+    text-align: center;
+}
+
+
+.flex-blackjack-row-2 {
+    width: 100%;
+    display: flex;
+}
+
+
+.flex-blackjack-row-2 div, .flex-blackjack-row-2 button {
+    display: flex;
+    width: 75%;
+    padding: 15px;
+    justify-content: center;
+    margin: 10px;
+    height: 100%;
+}
+
+.flex-blackjack-row-3 {
+    align-items: center !important;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 20%;
+}
+
+

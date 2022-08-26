@@ -30,7 +30,7 @@ h3 {
 
 .flex-blackjack-row-1,
 .flex-blackjack-row-2,
-.flex-blackjack-row-3{
+.flex-blackjack-row-3 {
     margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
@@ -40,8 +40,8 @@ h3 {
 
 .flex-blackjack-row-1 {
     background-color: rgb(34, 34, 34);
-    height:min-content;
-    height: 55vh; 
+    height: min-content;
+    height: 55vh;
 }
 
 .flex-blackjack-row-1 div {
@@ -57,7 +57,8 @@ h3 {
 }
 
 
-.flex-blackjack-row-2 div, .flex-blackjack-row-2 button {
+.flex-blackjack-row-2 div,
+.flex-blackjack-row-2 button {
     display: flex;
     width: 75%;
     padding: 15px;
@@ -71,9 +72,13 @@ h3 {
 
 }
 
+#your-box img,
+#dealer-box img {
+    width: 30%;
+    margin: 5px;
+}
+
 table {
     border-collapse: collapse;
     width: 20%;
 }
-
-

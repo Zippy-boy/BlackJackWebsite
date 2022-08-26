@@ -43,7 +43,7 @@ function showCard(card, activePlayer) {
     if (activePlayer['score'] <= 21) {
         let cardimage = document.createElement('img');
         cardimage.src = `static/images/${card}`;
-        cardimage.style.height = '120px'; cardimage.style.margin = '5px';
+        //cardimage.style.height = '120px'; cardimage.style.margin = '5px';
         document.querySelector(activePlayer['div']).appendChild(cardimage);
         hitSound.play();
     }
